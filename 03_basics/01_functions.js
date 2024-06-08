@@ -33,3 +33,20 @@ function userLoggedIn(userName = "sam"){
 }
 
 console.log(userLoggedIn("Dhruv"))
+
+
+
+
+// Cart amount total...........................................
+
+function cartAmountTotal1(...num1){
+    return num1
+}
+
+console.log(cartAmountTotal1(100, 200, 3000))
+
+
+function cartAmountTotal(val1, val2, ...num1){
+    return num1;
+}
+console.log(cartAmountTotal(100, 200, 3000, 69))
